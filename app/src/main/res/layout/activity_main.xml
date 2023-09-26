@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546971"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="688dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#F8F8F8"
+            android:backgroundTint="#546971"
+            android:textColor="#090A0A"
+            android:text="Calculadora de IMC"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:textColor="#fff"
+            android:text="Ingese su peso en kg"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Text_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#090A0A"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:textColor="#fff"
+            android:text="Ingrese su altura en cm"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Text_altura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#090A0A"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Ingrese su edad"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Text_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#090A0A"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Ingrese su genero"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Text_genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#090A0A"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="fecha de nacimineto"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Text_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#090A0A"
+            android:ems="10"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A53131"
+            android:textColor="#090A0A"
+            android:text="calcular"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
